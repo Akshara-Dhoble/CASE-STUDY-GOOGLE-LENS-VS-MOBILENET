@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>Real Time Image Identification App</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body>
+          <center>
+            <h4 style="text-align: center;font-family: 'Lexend Tera', sans-serif;">
+                <span>CASE STUDY BETWEEN GOOGLE LENS AND MOBILNET </span>
+                <br><br>
+                GOOGEL LENS <img src="Google lens.png" style="width: 150px;">
+                <p>
+                    <b style="color: red;">VS</b>
+                </p>
+                <br>
+                <p class="btn btn-primary" style="font-size: 20px;">Mobilenet</p>
+                </h4>
+                <hr>
+              <ol>
+                  <div class="test_image_and_result col-xs-12">
+                      <li class="col-sm-4 col-xs-12">
+                          <b>Test Image - </b>
+                          <img src="Headphone.png" class="img-responsive">
+                      </li>
+                      <h5 class="col-sm-4 col-xs-12">
+                          Output on <b>GOOGLE LENS</b> -
+                          <span>Headphones</span>
+                      </h5>
+                      <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>Mobilenet Model</b> -
+                        <span>Microphone, Mike</span>
+                    </h5>
+                    <div class="mini_result" class="col-xs-12">
+                        <h4>Result - </h4>
+                       <hr>
+                        <h4>Draw - </h4>
+                    </div>
+                    
+                  </div>
+                 
+                 
+                  <div class="test_image_and_result col-xs-12">
+                    <hr>
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img src="Phone.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS</b> -
+                        <span>Mobile phone</span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12">
+                      Output on <b>Mobilenet Model</b> -
+                      <span>Smartphone</span>
+                  </h5>
+                  <div class="mini_result" class="col-xs-12">
+                      <h4>Result - </h4>
+                      <hr>
+                      <h4>Draw - </h4>
+                  </div>
+                </div>
+
+                <div class="test_image_and_result col-xs-12">
+                    <hr>
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img src="Apple.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS</b> -
+                        <span>Red apple</span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12">
+                      Output on <b>Mobilenet Model</b> -
+                      <span>Apple</span>
+                  </h5>
+                  <div class="mini_result" class="col-xs-12">
+                      <h4>Result - </h4>
+                      <hr>
+                      <h4>Draw - </h4>
+                  </div>
+                </div>
+
+                <div class="test_image_and_result col-xs-12">
+                    <hr>
+                    <li class="col-sm-4 col-xs-12">
+                       
+                        <b>Test Image - </b>
+                        <img src="laptop.jpg" class="img-responsive">
+                    </li>
+                   
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS</b> -
+                        <span>Laptop</span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12">
+                      Output on <b>Mobilenet Model</b> -
+                      <span>Laptop</span>
+                  </h5>
+                  <div class="mini_result" class="col-xs-12">
+                      <h4>Result - </h4>
+                      <hr>
+                      <h4>Draw - </h4>
+                  </div>
+                </div>
+
+                <div class="test_image_and_result col-xs-12">
+                    <hr>
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img src="basket-ball-.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS</b> -
+                        <span>Cosco Basketball</span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12">
+                      Output on <b>Mobilenet Model</b> -
+                      <span>Basketball</span>
+                  </h5>
+                  <div class="mini_result" class="col-xs-12">
+                      <h4>Result - </h4>
+                        <hr>
+                      <h4>Draw - </h4>
+                  </div>
+                </div>
+                  
+              </ol>
+              <h4 class="col-xs-12 result" style="font-family: 'Courier New', Courier, monospace; color: crimson; background-color: lemonchiffon;" >
+                I have tested 5 images<br>
+                 <b>GOOGLE LENS</b> have predicted 4 of them more accurately. And <b>MOBILENET</b> was less accurately<br>
+                 So according to my case study <b>GOOGLE LENS</b> is more Accurate</h4>
+          </center>
+          
+          
+      </body>
+</html>
